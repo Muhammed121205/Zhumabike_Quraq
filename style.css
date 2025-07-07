@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/ornament.png'); /* өз ою-өрнек суретіңнің жолын жаз */
+    background-size: cover; /* Толық экранды жауып тұрады */
+    background-position: center; /* Ортаға туралайды */
+    background-repeat: no-repeat; /* Қайталап шықпайды */
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
